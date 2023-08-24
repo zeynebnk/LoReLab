@@ -3,7 +3,7 @@ layout: page
 title: Current Projects
 permalink: /projects/
 toggle: on
-rank: 1
+rank: 3
 ---
 
 <div class="lab-wrapper">
@@ -22,7 +22,7 @@ rank: 1
                 <p><b>Collaborators: </b>{{ project.collaborators }}</p>
             {% endif %}
             {% if project.assignees %}
-                <p><b>Assignees: </b>{{ project.assignees }}</p>
+                <h3>{{ project.assignees }}</h3>
             {% endif %}
             <p>{{ project.description }}</p>
         </li>

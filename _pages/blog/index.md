@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
-toggle: off
-rank: 5
+title: News
+permalink: /news/
+toggle: on
+rank: 1
 ---
 
 <ul class="post-list">

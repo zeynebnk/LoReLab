@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PI Bio
+title: pi
 permalink: /pi/
 toggle: off
-rank: 5
+rank: 6
 ---

@@ -2,6 +2,7 @@
   is_pi: False
   is_current: True
   position: PhD Student
+  institution:
   bio: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum luctus arcu,
     ac suscipit sapien viverra vel. Maecenas lorem nisl, viverra in sodales ut, vehicula sit
@@ -12,11 +13,24 @@
 - name: Zeyneb Kaya
   is_pi: False
   is_current: True
-  position: High School Student
+  position:
+  institution:
   bio: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum luctus arcu,
     ac suscipit sapien viverra vel. Maecenas lorem nisl, viverra in sodales ut, vehicula sit
     amet augue. Morbi a turpis ipsum. Fusce ultricies justo non ligula semper quis gravida
     leo sodales.
   photo: person2.jpg
+
+- name: John Smith
+  is_pi: False
+  is_current: True
+  position:
+  institution:
+  bio: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum luctus arcu,
+    ac suscipit sapien viverra vel. Maecenas lorem nisl, viverra in sodales ut, vehicula sit
+    amet augue. Morbi a turpis ipsum. Fusce ultricies justo non ligula semper quis gravida
+    leo sodales.
+  photo: person3.jpg
 
