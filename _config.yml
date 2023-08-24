@@ -1,0 +1,24 @@
+# Site settings
+title: lorel lab
+lab_name: l o r e l
+author: >
+  Annie Lamar, Zeyneb Kaya and the Low-Resource Languages Lab
+institution: 
+email: zeynebnkaya@icloud.com
+description: >
+  The lorel lab researches multidisciplinary work with diverse under-resourced languages. 
+baseurl: ""
+url: "https://zeynebnk.github.io/LoResLangLab"
+#twitter_username: 
+github_username: zeynebnk
+images_dir: "/images/"
+
+# Build settings
+markdown: kramdown
+include: ["_pages"]
+permalink: /:title/
+
+#plugins for search engine optimization
+# plugins:
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
