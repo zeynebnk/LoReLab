@@ -9,13 +9,14 @@ rank: 1
 <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p style="font-size:20px;">
+        <b>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+         {{ post.date | date: "%b %-d, %Y" | append: " ––"}} </b> {{ post.title }} </p>
+    
+        <p>
+         {{ post.excerpt}}
+        </p>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
